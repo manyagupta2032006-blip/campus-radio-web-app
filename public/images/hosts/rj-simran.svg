@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="100%" height="100%">
+  <defs>
+    <linearGradient id="gradSimran" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="200" height="200" rx="30" fill="url(#gradSimran)"/>
+  <g transform="translate(100, 90)">
+    <circle r="36" fill="#18181b"/>
+    <path d="M-20,10 C-10,30 10,30 20,10" fill="none" stroke="#e0f2fe" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <text x="100" y="170" font-family="sans-serif" font-weight="900" font-size="16" fill="#ffffff" text-anchor="middle">RJ SIMRAN</text>
+</svg>

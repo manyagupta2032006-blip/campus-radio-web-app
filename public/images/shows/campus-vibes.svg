@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c4b5fd"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="500" cy="80" r="180" fill="#7c3aed" opacity="0.25" filter="url(#glow)"/>
+  <circle cx="100" cy="320" r="150" fill="#4f46e5" opacity="0.2" filter="url(#glow)"/>
+  
+  <!-- Waveform grid -->
+  <g opacity="0.15" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="50" x2="600" y2="50"/>
+    <line x1="0" y1="100" x2="600" y2="100"/>
+    <line x1="0" y1="150" x2="600" y2="150"/>
+    <line x1="0" y1="200" x2="600" y2="200"/>
+    <line x1="0" y1="250" x2="600" y2="250"/>
+    <line x1="0" y1="300" x2="600" y2="300"/>
+    <line x1="0" y1="350" x2="600" y2="350"/>
+  </g>
+
+  <!-- Central Vinyl Graphic -->
+  <g transform="translate(300, 200)">
+    <circle r="120" fill="#09090b" stroke="#3f3f46" stroke-width="3"/>
+    <circle r="100" fill="none" stroke="#27272a" stroke-width="1"/>
+    <circle r="80" fill="none" stroke="#27272a" stroke-width="1"/>
+    <circle r="60" fill="none" stroke="#27272a" stroke-width="1"/>
+    <circle r="45" fill="url(#neon)"/>
+    <circle r="15" fill="#09090b"/>
+    <!-- Headphone silhouette -->
+    <path d="M-60,0 A60,60 0 0,1 60,0" fill="none" stroke="#c4b5fd" stroke-width="8" stroke-linecap="round"/>
+    <rect x="-70" y="-10" width="16" height="30" rx="6" fill="#c4b5fd"/>
+    <rect x="54" y="-10" width="16" height="30" rx="6" fill="#c4b5fd"/>
+  </g>
+
+  <!-- Show Title Text -->
+  <text x="40" y="70" font-family="sans-serif" font-weight="900" font-size="32" fill="#ffffff" letter-spacing="1">CAMPUS VIBES</text>
+  <text x="40" y="100" font-family="sans-serif" font-weight="700" font-size="16" fill="#c4b5fd" letter-spacing="2">WITH DJ SARAH • 98.4 FM</text>
+  
+  <rect x="40" y="325" width="100" height="28" rx="14" fill="#f43f5e" opacity="0.9"/>
+  <text x="64" y="344" font-family="sans-serif" font-weight="800" font-size="12" fill="#ffffff" letter-spacing="1">LIVE NOW</text>
+</svg>

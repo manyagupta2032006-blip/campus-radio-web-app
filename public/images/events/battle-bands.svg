@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="350" fill="url(#bg)"/>
+  <text x="40" y="60" font-family="sans-serif" font-weight="900" font-size="28" fill="#ffffff">BATTLE OF THE BANDS</text>
+  <text x="40" y="90" font-family="sans-serif" font-weight="700" font-size="14" fill="#a7f3d0">16 COLLEGES • AUDITORIUM 2</text>
+  <rect x="40" y="270" width="160" height="32" rx="16" fill="#059669"/>
+  <text x="120" y="291" font-family="sans-serif" font-weight="800" font-size="12" fill="#ffffff" text-anchor="middle">SEPTEMBER 20 • 4:00 PM</text>
+</svg>

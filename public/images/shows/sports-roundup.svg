@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Sports Trophy / Stadium Graphic -->
+  <g transform="translate(300, 190)">
+    <path d="M-30,-20 L30,-20 L20,30 L-20,30 Z" fill="#10b981" stroke="#34d399" stroke-width="2"/>
+    <path d="M-30,-15 C-45,-15 -45,15 -25,15" fill="none" stroke="#34d399" stroke-width="3"/>
+    <path d="M30,-15 C45,-15 45,15 25,15" fill="none" stroke="#34d399" stroke-width="3"/>
+    <rect x="-10" y="30" width="20" height="20" fill="#047857"/>
+    <rect x="-25" y="50" width="50" height="10" rx="3" fill="#10b981"/>
+  </g>
+  <text x="40" y="70" font-family="sans-serif" font-weight="900" font-size="32" fill="#ffffff">VARSITY SPORTS ROUNDUP</text>
+  <text x="40" y="100" font-family="sans-serif" font-weight="700" font-size="16" fill="#a7f3d0">PCTE SPORTS CLUB • SATURDAY 11:00 AM</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#083344"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Circuit Nodes -->
+  <g opacity="0.3" stroke="#06b6d4" stroke-width="2" fill="none">
+    <path d="M100,300 L200,300 L250,220 L400,220 L450,140 L550,140"/>
+    <circle cx="200" cy="300" r="6" fill="#06b6d4"/>
+    <circle cx="400" cy="220" r="6" fill="#06b6d4"/>
+    <circle cx="450" cy="140" r="6" fill="#06b6d4"/>
+  </g>
+  <!-- Tech Chip Graphic -->
+  <g transform="translate(300, 200)">
+    <rect x="-50" y="-50" width="100" height="100" rx="16" fill="#0c4a6e" stroke="#38bdf8" stroke-width="3"/>
+    <text x="0" y="8" font-family="monospace" font-weight="900" font-size="22" fill="#a5f3fc" text-anchor="middle">AI / 26</text>
+  </g>
+  <text x="40" y="70" font-family="sans-serif" font-weight="900" font-size="32" fill="#ffffff">TECH TALKS &amp; STARTUPS</text>
+  <text x="40" y="100" font-family="sans-serif" font-weight="700" font-size="16" fill="#a5f3fc">INNOVATORS CLUB &amp; PROF. SHARMA</text>
+</svg>

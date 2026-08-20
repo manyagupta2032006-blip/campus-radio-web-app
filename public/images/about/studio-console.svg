@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <!-- Broadcast Mixer Sliders & Indicators -->
+  <g transform="translate(100, 150)">
+    <rect x="0" y="0" width="400" height="180" rx="16" fill="#09090b" stroke="#374151" stroke-width="2"/>
+    <!-- LED Indicators -->
+    <circle cx="40" cy="30" r="5" fill="#ef4444"/>
+    <circle cx="60" cy="30" r="5" fill="#10b981"/>
+    <circle cx="80" cy="30" r="5" fill="#3b82f6"/>
+    <!-- Channel Faders -->
+    <line x1="120" y1="40" x2="120" y2="150" stroke="#1f2937" stroke-width="6"/>
+    <line x1="180" y1="40" x2="180" y2="150" stroke="#1f2937" stroke-width="6"/>
+    <line x1="240" y1="40" x2="240" y2="150" stroke="#1f2937" stroke-width="6"/>
+    <line x1="300" y1="40" x2="300" y2="150" stroke="#1f2937" stroke-width="6"/>
+    <rect x="110" y="80" width="20" height="14" rx="3" fill="#a855f7"/>
+    <rect x="170" y="60" width="20" height="14" rx="3" fill="#a855f7"/>
+    <rect x="230" y="100" width="20" height="14" rx="3" fill="#a855f7"/>
+    <rect x="290" y="50" width="20" height="14" rx="3" fill="#a855f7"/>
+  </g>
+  <text x="40" y="60" font-family="sans-serif" font-weight="900" font-size="28" fill="#ffffff">STUDIO 2 • BROADCAST CONSOLE</text>
+  <text x="40" y="90" font-family="sans-serif" font-weight="700" font-size="14" fill="#c4b5fd">MASTER CONTROL WING • 98.4 FM</text>
+</svg>

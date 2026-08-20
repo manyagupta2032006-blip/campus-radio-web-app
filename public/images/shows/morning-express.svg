@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="50%" stop-color="#1c1917"/>
+      <stop offset="100%" stop-color="#09090b"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f97316"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bg)"/>
+  <circle cx="450" cy="180" r="110" fill="url(#sun)" opacity="0.8"/>
+  <!-- Morning Coffee & Mic Graphic -->
+  <g transform="translate(260, 160)">
+    <!-- Coffee Cup -->
+    <path d="M-40,20 L40,20 L30,80 L-30,80 Z" fill="#292524" stroke="#d97706" stroke-width="3"/>
+    <path d="M35,35 A18,18 0 0,1 35,65" fill="none" stroke="#d97706" stroke-width="4"/>
+    <!-- Steam -->
+    <path d="M-15,10 Q-10,-5 -15,-20" fill="none" stroke="#fed7aa" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M0,10 Q5,-5 0,-20" fill="none" stroke="#fed7aa" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+    <path d="M15,10 Q20,-5 15,-20" fill="none" stroke="#fed7aa" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <text x="40" y="70" font-family="sans-serif" font-weight="900" font-size="32" fill="#ffffff">THE MORNING EXPRESS</text>
+  <text x="40" y="100" font-family="sans-serif" font-weight="700" font-size="16" fill="#fed7aa">RJ ARYAN &amp; SIMRAN • 08:00 AM</text>
+</svg>
