@@ -89,7 +89,7 @@ const ShowDetailsPage = () => {
               {/* Action Buttons */}
               <div className="flex flex-wrap items-center gap-4 pt-4">
                 <button
-                  onClick={() => playShowTrack({ title: show.title, host: show.host, category: show.category })}
+                  onClick={() => playShowTrack({ id: show.id, title: show.title, host: show.host, category: show.category })}
                   className="inline-flex items-center gap-2.5 px-6 py-3 rounded-xl bg-[#c4b5fd] text-[#18112e] text-sm font-bold hover:bg-[#b8a5fc] transition cursor-pointer shadow-lg"
                 >
                   <FaPlay className="text-xs" />
@@ -159,7 +159,7 @@ const ShowDetailsPage = () => {
               >
                 <div className="flex items-center gap-4">
                   <button
-                    onClick={() => playShowTrack({ title: ep.title, host: show.host, category: show.category })}
+                    onClick={() => playShowTrack({ id: show.id, title: ep.title, host: show.host, category: show.category })}
                     className="w-11 h-11 rounded-full bg-purple-900/40 text-[#c4b5fd] flex items-center justify-center text-sm shrink-0 hover:bg-[#c4b5fd] hover:text-[#18112e] transition cursor-pointer"
                   >
                     <FaPlay className="ml-0.5" />
@@ -176,7 +176,7 @@ const ShowDetailsPage = () => {
                 <div className="flex items-center gap-4 text-xs text-gray-400 self-end sm:self-center">
                   <span>{ep.plays} plays</span>
                   <button
-                    onClick={() => playShowTrack({ title: ep.title, host: show.host, category: show.category })}
+                    onClick={() => playShowTrack({ id: show.id, title: ep.title, host: show.host, category: show.category })}
                     className="px-3.5 py-1.5 rounded-xl bg-white/5 hover:bg-white/10 text-white text-xs font-bold transition cursor-pointer"
                   >
                     Listen Now
